@@ -2,10 +2,10 @@
 
 one:
   price: 1
-  pizza_id: 1
-  restaurant_id: 1
+  restaurant: one
+  pizza: one
 
 two:
   price: 1
-  pizza_id: 1
-  restaurant_id: 1
+  restaurant: two
+  pizza: two
