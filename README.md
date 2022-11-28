@@ -1,24 +1,4 @@
-# README
+# `Pizzas and Restaurants`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Description
+A ruby on rails `api` application managing a database about various pizzas and restaurants and the relationsip between them. A restaurant has many pizzas and a pizza also has many restaurants (a many-to-many relationship). A join table is present to establish this relationship.
