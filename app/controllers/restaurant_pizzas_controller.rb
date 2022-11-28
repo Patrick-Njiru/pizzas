@@ -1,6 +1,7 @@
 class RestaurantPizzasController < ApplicationController
     wrap_parameters format: []
     
+    # POST /restaurantpizzas
     def create
         restaurant_pizza = RestaurantPizza.create!(price: params[:price], restaurant_id: params[:restaurant_id], pizza_id: params[:pizza_id])
         render json: restaurant_pizza.pizza, status: :created
