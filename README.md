@@ -2,7 +2,7 @@
 By Patrick Njiru
 
 ## Description
-A ruby on rails `api` application managing a database about various pizzas and restaurants and the relationsip between them. A restaurant has many pizzas and a pizza also has many restaurants (a many-to-many relationship). A join table is present to establish this relationship.
+A ruby on rails `api` application managing a database about various pizzas and restaurants and the relationsip between them. A restaurant has many pizzas and a pizza also has many restaurants (a many-to-many relationship). A join table is present to establish this relationship. I created this application using `ruby version 3.1.2`.
 
 ## Setup and Installation
 ## Requirements
@@ -10,13 +10,13 @@ A ruby on rails `api` application managing a database about various pizzas and r
 - Internet access.
 
 ## Instructions
-Fork and clone this repo into your machine. Open the application with your code editor, open the terminal and run: 
+Fork and clone this repo into your machine. Open the application with your code editor. To get started, open a new terminal and run: 
 ```console
     $ bundle install
     $ rails db:migrate db:seed
 ```
 
-To open the server, run `rails s`. You can now test out the available methods on the console by running `rails c` or on `postman`.
+To open the server, run `rails s`. You can now test out the available methods on the console by running `rails c` or on `postman`. There is an extension by the name `Thunder Client` in VS Code that can also be used in place of postman. There are no tests in this application.
 
 ## Technologies Used
 - Ruby
